@@ -1,70 +1,13 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `yarn start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# About REDUX
+Redux é uma biblioteca de arquitetura para aplicações em React e React-Native (qualquer aplicação em JS)
+o Redux vai ser usado no momento em que eu precise gerenciar os dados da minha aplicação / as informações da minha aplicação,
+essas informações podem ser ex: por entrada de dados de usuários, podem ser informações que venham através de uma chamada á API,
+pode ser informações através de ações do usuário. E essa informações não são teóricamente apenas dados e não são apenas arrays e objetos,
+são em sí ações do usuário como clicks em botões, se ele navegar para outra página o que eu preciso fazer, então o Redux lida muito e ajuda
+a gente a controlar como a minha aplicação deve se comportar baseado nas ações do usuário, baseado em informações de entrada, por isso o Redux
+têm várias integrações com outras bibliotecas como por exemplo: redux-saga que fazem esses efeitos colaterais na aplicação.
+A gente utiliza o Redux quando precisamos básicamente centralizar as lógicas de funcionamentos as regras de negócios da nossa aplicação em
+um único local, o Redux ajuda a gente a controlar os efeitos colaterais tanto do usuário quanto do próprio sistema, esses efeitos colaterais
+são baseado em alguma ação que aconteceu por exemplo um termino de uma aula que aconteceu em um componente totalmente desconexo da SET-BAR
+eu fui para a próxima aula automáticamente ou sejá a gente fez esse processo de forma automática ou sejá foi um efeito colateral que foi
+desparado através de uma ação de usuário ou do sistema.
